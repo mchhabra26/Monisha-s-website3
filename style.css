@@ -1,0 +1,50 @@
+h3{ 
+    color:blueviolet
+}
+.paragraph{
+    color:purple
+}
+.Website{
+position: relative;
+}
+.Website p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.Website:hover p{
+    opacity: 1;
+}
+.Website:hover img{
+    opacity: 0.33;
+}
+a:link{
+    color:red
+}
+a:visited{
+ color:orange
+}
+.Social{
+    display:flex;
+    justify-content: flex-end;
+}
+
+body{
+    background-color:#e6a0ec;
+}
+.Menu{
+    margin-right:40px;
+}
+.Menu a{ 
+    margin-left:30px;
+}
+.grid{
+    display: flex;
+    justify-content: space-evenly;
+ flex-wrap:wrap ;
+}
+p{
+    text-align: center;
+}
